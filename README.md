@@ -15,5 +15,5 @@ join my home
 	        //将用户信息放入PageInfo对象里
 	        PageInfo page = new PageInfo(users,5);
 	        model.addAttribute("pageInfo", page);
-	        return "allUser";
+	        return "allUser"
 	    }
